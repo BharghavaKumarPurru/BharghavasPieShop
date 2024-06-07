@@ -34,5 +34,10 @@ namespace BharghavasPieShop.Models
         {
             return _bharghavasPieShopDbContext.Pies.FirstOrDefault(p=>p.PieId==pieId);
         }
+
+        public IEnumerable<Pie> SearchPies(string searchQuery)
+        {
+            return _bharghavasPieShopDbContext.Pies.Where(p => p.Name.Contains(searchQuery));
+        }
     }
 }
