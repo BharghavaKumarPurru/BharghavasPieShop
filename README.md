@@ -1,6 +1,7 @@
 # Pie Shop Web Application
 
 This repository contains a comprehensive web application for a Pie Shop built using ASP.NET Core and Entity Framework Core. The application allows users to browse a variety of pies, register and log in, and place orders. The project demonstrates the use of several key features of ASP.NET Core to create a robust, secure, and interactive web application.
+![Screenshot (282)](https://github.com/BharghavaKumarPurru/BharghavasPieShop/assets/117737888/1d2c3f27-6a5d-4f3c-8f3d-44da3a2880ca)
 
 ## Features
 
